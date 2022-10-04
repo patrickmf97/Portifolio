@@ -69,6 +69,23 @@ ul li hr {
 }
 .grade-text {
   width: 800px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contatos {
+  text-align: center;
+  height: 60vh;
+}
+.container-7 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  font-size: 30px;
+  flex-wrap: wrap;
+}
+.btn-lg {
+  width: 28vh;
 }
 
 @media (max-width: 1032px) {
@@ -82,5 +99,17 @@ ul li hr {
   .title {
     padding-left: 0;
     text-align: center;
+  }
+}
+@media (max-width: 425px) {
+  .container-7 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    font-size: 10px;
+  }
+  .btn-lg {
+    font-size: 10px;
+    width: 15vh;
   }
 }
