@@ -125,10 +125,16 @@ ul li hr {
 }
 @media (max-width: 425px) {
   .container-7 {
+    justify-content: center;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     width: 300px;
+  }
+  .container-7 ul {
+    margin-left: 4vh;
+  }
+  .container-7 ul li {
+    margin-left: 0;
+    padding-left: 0;
   }
   .navbar-nav li {
     margin-left: 2vh;
