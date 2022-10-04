@@ -103,8 +103,8 @@ ul li hr {
   width: 28vh;
 }
 
-.navbar-nav {
-  margin-left: 20px;
+.navbar-nav li {
+  margin-left: 2px;
 }
 
 @media (max-width: 1032px) {
@@ -114,9 +114,6 @@ ul li hr {
   }
   .nav-link {
     margin-left: 25px;
-  }
-  .navbar-nav {
-    margin-left: 20px;
   }
   .title {
     padding-left: 0;
@@ -129,9 +126,6 @@ ul li hr {
     margin-left: auto;
     margin-right: auto;
     width: 300px;
-  }
-  .navbar-nav {
-    margin-left: 10px;
   }
 }
 
