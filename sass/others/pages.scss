@@ -89,7 +89,7 @@ ul li hr {
 }
 .navbar-nav {
   li {
-    margin-left: 2px;
+    margin-left: 2vh;
   }
 }
 @media (max-width: 1032px) {
@@ -104,6 +104,11 @@ ul li hr {
     padding-left: 0;
     text-align: center;
   }
+  .navbar-nav {
+    li {
+      margin-left: 2vh;
+    }
+  }
 }
 @media (max-width: 425px) {
   .container-7 {
@@ -111,5 +116,10 @@ ul li hr {
     margin-left: auto;
     margin-right: auto;
     width: 300px;
+  }
+  .navbar-nav {
+    li {
+      margin-left: 2vh;
+    }
   }
 }
