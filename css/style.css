@@ -1,0 +1,101 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  text-align: center;
+  align-items: center;
+}
+.logo:hover {
+  transition: 500ms;
+  font-size: 45px;
+}
+
+body {
+  height: 100vh;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.nav-link {
+  margin-left: 25px;
+  font-size: 18px;
+}
+.nav-link:hover {
+  transition: 5ms;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.container-mestre {
+  position: relative;
+  width: auto;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding-left: 0;
+  margin-left: -5vh;
+}
+
+ul li hr {
+  padding-left: 0;
+  margin-left: -10vh;
+}
+
+.title {
+  padding-left: 20px;
+}
+
+.carousel {
+  width: 60%;
+  height: 50%;
+  margin: 2px auto;
+}
+
+.carousel-indicators {
+  padding-top: 100px;
+}
+
+.lado {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgphoto {
+  width: 200px;
+}
+
+.grade-text {
+  width: 800px;
+}
+
+@media (max-width: 1032px) {
+  .lado {
+    justify-content: center;
+    text-align: center;
+  }
+  .nav-link {
+    margin-left: 25px;
+  }
+  .title {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
