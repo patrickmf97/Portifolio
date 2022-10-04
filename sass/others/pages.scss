@@ -87,7 +87,9 @@ ul li hr {
 .btn-lg {
   width: 28vh;
 }
-
+.navbar-nav {
+  margin-left: 20px;
+}
 @media (max-width: 1032px) {
   .lado {
     justify-content: center;
@@ -97,7 +99,7 @@ ul li hr {
     margin-left: 25px;
   }
   .navbar-nav {
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .title {
     padding-left: 0;
@@ -106,8 +108,12 @@ ul li hr {
 }
 @media (max-width: 425px) {
   .container-7 {
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 300px;
+  }
+  .navbar-nav {
+    margin-left: 10px;
   }
 }
