@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="icon"
       type="image/x-icon"
@@ -66,11 +67,26 @@
         </nav>
       </div>
     </header>
+    <div
+      class="bg-image img-fluid"
+      style="
+        background-image: url('./img/background.png');
+        height: 90vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <h2>Patrick Morais Ferreira</h2>
+      <h4 data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1000">
+        <a href="#content"> <i class="bi bi-chevron-down"></i></a>
+      </h4>
+    </div>
     <section>
-      <div class="container-mestre">
+      <div class="container-mestre" id="content">
         <ul>
           <li><hr /></li>
-          <li class="lado">
+          <li class="lado" data-aos="flip-left" data-aos-delay="300">
             <img src="./img/Foto Circulo.png" alt="" class="imgphoto" />
             <div class="grade-text">
               <h3>Sobre o site!</h3>
@@ -86,7 +102,7 @@
             </div>
           </li>
           <li><hr /></li>
-          <li>
+          <li data-aos="flip-right" data-aos-delay="300">
             <div class="title"><h3>Linguagens e Tecnologias!</h3></div>
             <div
               id="carouselIndicators"
@@ -178,5 +194,9 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
