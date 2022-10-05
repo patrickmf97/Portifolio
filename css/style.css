@@ -34,30 +34,6 @@ body {
   text-decoration: underline;
 }
 
-.bg-image {
-  color: white;
-  text-align: center;
-}
-.bg-image h2 {
-  padding-top: 30vh;
-}
-.bg-image h4 {
-  padding-top: 20vh;
-  animation: go-back 1s infinite alternate;
-}
-.bg-image h4 a {
-  list-style: none;
-  color: white;
-}
-@keyframes go-back {
-  from {
-    transform: translateY(20px);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
 .container-mestre {
   position: relative;
   width: auto;

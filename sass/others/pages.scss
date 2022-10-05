@@ -30,30 +30,6 @@ body {
     text-decoration: underline;
   }
 }
-.bg-image {
-  color: white;
-  text-align: center;
-
-  h2 {
-    padding-top: 30vh;
-  }
-  h4 {
-    padding-top: 20vh;
-    a {
-      list-style: none;
-      color: white;
-    }
-    animation: go-back 1s infinite alternate;
-  }
-  @keyframes go-back {
-    from {
-      transform: translateY(20px);
-    }
-    to {
-      transform: translateY(0);
-    }
-  }
-}
 
 .container-mestre {
   position: relative;
