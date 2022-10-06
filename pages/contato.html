@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="icon"
       type="image/x-icon"
@@ -65,10 +66,10 @@
       </div>
     </header>
     <section class="contatos mt-4">
-      <h3>Contatos!</h3>
+      <h3 data-aos="fade-up">Contatos!</h3>
       <div class="container-7 mt-4 align-items-center">
-        <ul class="d-flex flex-wrap justify-content-between">
-          <li>
+        <ul class="d-flex flex-column flex-wrap justify-content-between">
+          <li class="mt-2" data-aos="flip-left" data-aos-delay="1000">
             <a
               class="text-muted"
               href="https://www.linkedin.com/in/patrick-morais-314965108/"
@@ -77,16 +78,14 @@
               </button></a
             >
           </li>
-          <li>
+          <li class="mt-2" data-aos="flip-right" data-aos-delay="1100">
             <a class="text-muted" href="https://github.com/patrickmf97"
               ><button type="button" class="btn btn-outline-dark btn-lg">
                 <i class="bi bi-github"> Github</i>
               </button></a
             >
           </li>
-        </ul>
-        <ul class="d-flex flex-wrap justify-content-between">
-          <li>
+          <li class="mt-2" data-aos="flip-left" data-aos-delay="1200">
             <a
               class="text-muted"
               href="mailto:patrickmf97@gmail.com?subject=RE:Portifolio"
@@ -95,7 +94,7 @@
               </button></a
             >
           </li>
-          <li>
+          <li class="mt-2" data-aos="flip-right" data-aos-delay="1300">
             <a class="text-muted" href="https://wa.me/5521985557448"
               ><button type="button" class="btn btn-outline-dark btn-lg">
                 <i class="bi bi-whatsapp"> Whatsapp</i>
@@ -111,7 +110,7 @@
       >
         <div class="col-md-4 d-flex align-items-center">
           <a
-            href="index.html"
+            href="../index.html"
             class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
           >
             <svg class="bi" width="50" height="50">
@@ -149,5 +148,9 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
