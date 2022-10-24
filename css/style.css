@@ -1,4 +1,12 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@keyframes go-back {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +40,24 @@ body {
   transition: 5ms;
   font-size: 20px;
   text-decoration: underline;
+}
+
+.bg-image {
+  background-image: url(../img/background.png);
+  color: white;
+  text-align: center;
+  min-height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-image h2 {
+  padding-top: 30vh;
+}
+
+.arrow {
+  padding-top: 20vh;
+  animation: go-back 1s infinite alternate;
 }
 
 .container-mestre {
@@ -91,15 +117,29 @@ ul li hr {
 
 .contatos {
   text-align: center;
-  height: 60vh;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container-7 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
+  display: flex;
+  min-width: 319px;
   font-size: 30px;
   flex-wrap: wrap;
+}
+
+.container-7-1 {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.container-7-1 .list-1 {
+  margin-right: 20px;
+}
+.container-7-1 .list-2 {
+  margin-left: 10px;
 }
 
 .btn-lg {
@@ -108,6 +148,28 @@ ul li hr {
 
 .navbar-nav li {
   margin-left: 2vh;
+}
+
+.copy {
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: white;
 }
 
 @media (max-width: 1032px) {

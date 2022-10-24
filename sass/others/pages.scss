@@ -30,6 +30,23 @@ body {
     text-decoration: underline;
   }
 }
+.bg-image {
+  background-image: url(../img/background.png);
+  color: white;
+  text-align: center;
+  min-height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  & h2 {
+    padding-top: 30vh;
+  }
+}
+
+.arrow {
+  padding-top: 20vh;
+  animation: go-back 1s infinite alternate;
+}
 .container-mestre {
   margin-left: 10px;
   margin-right: 10px;
@@ -78,14 +95,28 @@ ul li hr {
 
 .contatos {
   text-align: center;
-  height: 60vh;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .container-7 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
+  display: flex;
+  min-width: 319px;
   font-size: 30px;
   flex-wrap: wrap;
+}
+.container-7-1 {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+
+  & .list-1 {
+    margin-right: 20px;
+  }
+  & .list-2 {
+    margin-left: 10px;
+  }
 }
 .btn-lg {
   width: 28vh;
@@ -95,6 +126,26 @@ ul li hr {
     margin-left: 2vh;
   }
 }
+.copy {
+  color: white;
+}
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: white;
+  }
+}
+
 @media (max-width: 1032px) {
   .lado {
     justify-content: center;
