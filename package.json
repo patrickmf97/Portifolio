@@ -1,7 +1,7 @@
 {
     "name": "portifolio",
     "version": "0.1.0",
-    "homepage": "https://patrickmf97.github.io/Portifolio",
+    "type": "module",
     "private": true,
     "dependencies": {
         "framer-motion": "^11.2.13",
